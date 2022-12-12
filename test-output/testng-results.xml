@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Tc case is on start]]>
+    </line>
+    <line>
+      <![CDATA[lanching browser]]>
+    </line>
+    <line>
+      <![CDATA[waits for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[waits for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[sending mobileNo]]>
+    </line>
+    <line>
+      <![CDATA[waits for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[click on sign up button]]>
+    </line>
+    <line>
+      <![CDATA[waits for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[sending mobile no]]>
+    </line>
+    <line>
+      <![CDATA[waits for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[waits for500milis]]>
+    </line>
+    <line>
+      <![CDATA[Handling popup]]>
+    </line>
+    <line>
+      <![CDATA[waits for500milis]]>
+    </line>
+    <line>
+      <![CDATA[actualusername isHi anita lagad]]>
+    </line>
+    <line>
+      <![CDATA[tc is pass]]>
+    </line>
+    <line>
+      <![CDATA[logout From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-03T14:40:12 IST" name="Default suite" finished-at="2022-12-03T14:40:37 IST" duration-ms="25778">
+    <groups>
+    </groups>
+    <test started-at="2022-12-03T14:40:12 IST" name="Default test" finished-at="2022-12-03T14:40:37 IST" duration-ms="25778">
+      <class name="neoStoxTestpack.PROPERTYTESTNeoTestClass3">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTestpack.PROPERTYTESTNeoTestClass3@306e95ec]" started-at="2022-12-03T14:40:12 IST" name="launchNeoStox" finished-at="2022-12-03T14:40:21 IST" duration-ms="9871" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[lanching browser]]>
+            </line>
+            <line>
+              <![CDATA[waits for1000milis]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStox -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStoxTestpack.PROPERTYTESTNeoTestClass3@306e95ec]" started-at="2022-12-03T14:40:21 IST" name="loginToNeoStox" finished-at="2022-12-03T14:40:35 IST" duration-ms="13663" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waits for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[sending mobileNo]]>
+            </line>
+            <line>
+              <![CDATA[waits for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[click on sign up button]]>
+            </line>
+            <line>
+              <![CDATA[waits for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[sending mobile no]]>
+            </line>
+            <line>
+              <![CDATA[waits for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[click on submit button]]>
+            </line>
+            <line>
+              <![CDATA[waits for500milis]]>
+            </line>
+            <line>
+              <![CDATA[Handling popup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUsername()[pri:0, instance:neoStoxTestpack.PROPERTYTESTNeoTestClass3@306e95ec]" started-at="2022-12-03T14:40:35 IST" name="validateUsername" finished-at="2022-12-03T14:40:35 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waits for500milis]]>
+            </line>
+            <line>
+              <![CDATA[actualusername isHi anita lagad]]>
+            </line>
+            <line>
+              <![CDATA[tc is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUsername -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:neoStoxTestpack.PROPERTYTESTNeoTestClass3@306e95ec]" started-at="2022-12-03T14:40:35 IST" name="logoutFromApplication" finished-at="2022-12-03T14:40:36 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="ClosingBr()[pri:0, instance:neoStoxTestpack.PROPERTYTESTNeoTestClass3@306e95ec]" started-at="2022-12-03T14:40:36 IST" name="ClosingBr" finished-at="2022-12-03T14:40:37 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClosingBr -->
+      </class> <!-- neoStoxTestpack.PROPERTYTESTNeoTestClass3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
