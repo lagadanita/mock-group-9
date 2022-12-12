@@ -25,6 +25,9 @@ public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
+	
+	
+	
 	}
 public void onStart(ITestContext context) {
 	Reporter.log("Tc case is on start", true);
