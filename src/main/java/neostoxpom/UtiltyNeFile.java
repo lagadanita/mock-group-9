@@ -31,8 +31,6 @@ public class UtiltyNeFile
 		String value = prop.getProperty(key);
 		return value;
 		
-		
-	
 		}
 	//2. take scrrenshot
 		public static void takescreenshot(WebDriver driver,String fileName) throws IOException
