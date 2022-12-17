@@ -26,6 +26,9 @@ public class UtiltyNeFile
 		//create object of fileInputStream
 		FileInputStream myfis=new FileInputStream ("C:\\Users\\Hp\\eclipse-workspace\\selenium\\myProperty.properties");
 	
+		
+		
+		
 		prop.load(myfis);
 		
 		String value = prop.getProperty(key);
