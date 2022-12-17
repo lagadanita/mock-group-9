@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -22,7 +22,7 @@ public void sendpassword(WebDriver driver,String pass) throws InterruptedExcepti
 {
 	UtiltyNeFile.wait(driver, 1000);
 	password.sendKeys(pass);
-	Reporter.log("sending mobile no", true);
+	//Reporter.log("sending mobile no", true);
 	Thread.sleep(500);
 	
 }
@@ -30,7 +30,7 @@ public void clicksubmitbutton(WebDriver driver)
 {
 	UtiltyNeFile.wait(driver, 1000);
 	submitbutton.click();
-	Reporter.log("click on submit button", true);
+	//Reporter.log("click on submit button", true);
 	
 }
 

@@ -12,7 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.Reporter;
+
 
 import net.bytebuddy.utility.RandomString;
 
@@ -40,7 +40,7 @@ public class UtiltyNeFile
 			String a=RandomString.make(3);
 			File des=new File("C:\\Users\\Hp\\Desktop\\selenium\\SCRRENshot\\"+ fileName+a+".png");
 			FileHandler.copy(src, des);
-			Reporter.log("taking screenshot", true);
+			//Reporter.log("taking screenshot", true);
 		}
 		//3.scrolling
 		public static void scrollIntoView(WebDriver driver,WebElement element)
@@ -50,14 +50,14 @@ public class UtiltyNeFile
 			  
 		
 			js.executeScript("arguments[0].scrollIntoView(true)", element);
-			Reporter.log("scroll into view"+element.getText(), true);
+			//Reporter.log("scroll into view"+element.getText(), true);
 		}
 		
 		public static void wait(WebDriver driver,int waittime)
 		{
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waittime));
-			Reporter.log("waits for"+waittime+"milis", true);
+			//Reporter.log("waits for"+waittime+"milis", true);
 			
 		}
 

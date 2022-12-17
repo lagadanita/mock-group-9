@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -21,13 +21,13 @@ public void sendMoNum(WebDriver driver ,String mobNum)
 {
 	UtiltyNeFile.wait(driver, 1000);
 	mobilenofield.sendKeys(mobNum);
-	Reporter.log("sending mobileNo", true);
+	//Reporter.log("sending mobileNo", true);
 }
 public void clikSignUp(WebDriver driver)
 {
 	UtiltyNeFile.wait(driver, 1000);
 	signupbutton.click();
-	Reporter.log("click on sign up button", true);
+	//Reporter.log("click on sign up button", true);
 	
 }
 }

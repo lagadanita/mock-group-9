@@ -20,7 +20,7 @@ import org.testng.Assert;
 
 import org.testng.annotations.AfterClass;
 @Listeners(neoStoxTestpack.Listener.class)
-public class PROPERTYTESTNeoTestClass3 extends Base
+public class PROPERTYTESTNeoTestClass3Test extends Base
 //ValidateNeoStoxUserNameUsingPropertyFile
 {
 	

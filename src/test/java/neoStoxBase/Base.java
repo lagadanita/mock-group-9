@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-import org.testng.Reporter;
+
 
 import neostoxpom.UtiltyNeFile;
 
@@ -18,15 +18,10 @@ public class Base {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\Desktop\\selenium\\chrome\\chromedriver.exe");
 		
-		
-		
-		
-		
-		
-	driver=new ChromeDriver();
+		driver=new ChromeDriver();
 		 driver.get("https://neostox.com/sign-in");
 		driver.manage().window().maximize();
-		Reporter.log("lanching browser", true);
+		//Reporter.log("lanching browser", true);
 		UtiltyNeFile.wait(driver, 1000);
 		
 	}
@@ -36,7 +31,7 @@ public class Base {
 		
 		Thread.sleep(500);
 		driver.close();
-		Reporter.log("closing browser",true);
+		//Reporter.log("closing browser",true);
 	
 			
 		}

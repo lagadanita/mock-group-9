@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -32,12 +32,12 @@ public class Neostoxhomepage
 		Thread.sleep(500);
 		closebutton.click();
 		
-		Reporter.log("Handling popup", true);
+		//Reporter.log("Handling popup", true);
 	
 		}
 		else
 		{
-			Reporter.log(" NO popup", true);
+			//Reporter.log(" NO popup", true);
 		}
 	}
 	
@@ -48,7 +48,7 @@ public class Neostoxhomepage
 		
 		String actualusername = userName.getText();
 		
-		Reporter.log("actualusername is"+actualusername, true);
+		//Reporter.log("actualusername is"+actualusername, true);
 		
 		return actualusername;
 		
@@ -61,7 +61,7 @@ public class Neostoxhomepage
 		
 		
 		 logout.click();
-		 Reporter.log("logout From NeoStox", true);
+		// Reporter.log("logout From NeoStox", true);
 		
 	}
 	public String getBalance(WebDriver driver) 
@@ -70,7 +70,7 @@ public class Neostoxhomepage
 		
 		String actualBalance = balance.getText();
 		
-		Reporter.log("actualBalance is"+actualBalance, true);
+		//Reporter.log("actualBalance is"+actualBalance, true);
 		return actualBalance;
 		
 	}
