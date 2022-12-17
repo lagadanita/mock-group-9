@@ -25,6 +25,9 @@ public void sendMoNum(WebDriver driver ,String mobNum)
 }
 public void clikSignUp(WebDriver driver)
 {
+	
+	
+	
 	UtiltyNeFile.wait(driver, 1000);
 	signupbutton.click();
 	Reporter.log("click on sign up button", true);
